@@ -11,19 +11,13 @@ public class BucketSort
 	public static void main(String[] args)
 	{
 
-		int dataSize = 245760000;
+		int dataSize = 245760000;	//data size to sort
 
-		int[] array = RandomArrayGen(dataSize);
+		int[] array = RandomArrayGen(dataSize);		//make an array of random numbers to sort
 
-		int max = maxValue(array);
+		int max = maxValue(array);	
 
-		//System.out.println("Before Sort: ");
-		//printArray(array);
-
-		long runTime = sort(array, max);
-
-		//System.out.println("After Sort: ");
-		//printArray(sortedArray);
+		long runTime = sort(array, max);	//sort the array of random numbers
 
 		System.out.println("Data Size: " + dataSize);
 		System.out.println("Runtime is: " + runTime);
