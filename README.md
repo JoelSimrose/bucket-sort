@@ -1,5 +1,3 @@
-# bucket-sort
-
 # Bucket Sort
 
 ## Table of contents
